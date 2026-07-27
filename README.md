@@ -14,6 +14,74 @@
 
 ---
 
+## 🎥 Demonstração em Vídeo
+
+ Assista ao vídeo de demonstração do sistema operando em tempo real no Termux:
+
+<p align="center">
+  <a href="docs/demo.mp4">
+    <img src="docs/images/video_preview.png" alt="Assistir Vídeo de Demonstração" width="700">
+  </a>
+</p>
+
+> 💡 *Dica: Se o vídeo não abrir diretamente no seu navegador, assista ao arquivo `docs/demo.mp4` ou `docs/demo.gif` incluído no repositório.*
+
+---
+
+## 📸 Galeria de Imagens do Sistema
+
+### 1. Portal de Acesso & Suporte WhatsApp
+Interface limpa de autenticação comercial com atalho direto para o atendimento ao cliente via WhatsApp.
+
+<p align="center">
+  <img src="docs/images/login_screen.png" alt="Portal de Login e Suporte" width="650">
+</p>
+
+```text
+┌──────────────── PORTAL DE ACESSO ANONYMOUS BANK ────────────────┐
+│ 🔐 SISTEMA DE AUTENTICAÇÃO COMERCIAL SAAS                       │
+│                                                                 │
+│   [1] 🔐 Entrar no Sistema                                      │
+│   [2] 💬 Falar com Suporte Comercial (WhatsApp)                 │
+│   [0] 🚪 Sair                                                   │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 2. Cobrança PIX Instantânea (Cash-In)
+Geração automática de QR Code em alta definição e código Copia e Cola enviado direto para a área de transferência do seu celular.
+
+<p align="center">
+  <img src="docs/images/pix_checkout.png" alt="Cobrança PIX e QR Code" width="650">
+</p>
+
+```text
+┌─────────────────────── COBRANÇA PIX GERADA ───────────────────────┐
+│ 💵 Valor a Receber: R$ 25,00                                      │
+│ 🔑 Chave Copia/Cola Copiada para a Área de Transferência!        │
+│ ⏳ Aguardando pagamento em tempo real...                         │
+└───────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 3. Painel de Saldo & Perfil da Conta
+Acompanhe seu saldo em conta disponível, histórico de depósitos, total sacado e validade da sua licença.
+
+<p align="center">
+  <img src="docs/images/user_dashboard.png" alt="Painel da Conta e Saldo" width="650">
+</p>
+
+```text
+┌───────────────────── PAINEL DA CONTA SAAS ─────────────────────┐
+│ 👤 Usuário: cliente_vip (CLIENTE) │ API: CONECTADO              │
+│ 💰 Seu Saldo Individual: R$ 150,00                             │
+└────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## ✨ Recursos do Aplicativo
 
 ### 🔒 1. 100% Sem KYC (Zero Burocracia)
@@ -86,15 +154,6 @@ bank
 Ao abrir o aplicativo (`anon`), selecione a opção desejada:
 - Digite **`1`** para entrar com seu **Usuário** e **Senha**.
 - Digite **`2`** para abrir o **Suporte no WhatsApp**.
-
-```text
-┌──────────────── PORTAL DE ACESSO ANONYMOUS BANK ────────────────┐
-│                                                                 │
-│   [1] 🔐 Entrar no Sistema                                      │
-│   [2] 💬 Falar com Suporte Comercial (WhatsApp)                 │
-│   [0] 🚪 Sair                                                   │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ### 📥 2. Gerando uma Cobrança
 1. No menu principal, escolha a opção **`1`** (`Cobrar via PIX`).
